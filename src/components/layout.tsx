@@ -26,11 +26,6 @@ const Layout = ({ children }) => {
     <div className="flex flex-col justify-center items-center w-screen h-screen">
       <div className="max-w-2xl px-6">
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
       </div>
     </div>
   )

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Simple Tailwind`,
-    description: `This is a simple Gatsby starter that uses Tailwind, Typescript, and a few other QOL tools.`,
+    title: `When did my parents fuck?`,
+    description: `Find out on what day you were conceived on.`,
     author: `@samwightt`,
   },
   plugins: [
