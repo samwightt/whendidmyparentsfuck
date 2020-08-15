@@ -31,6 +31,22 @@ const IndexPage = () => (
       Find out the date you were conceived on.
     </h2>
     <DateCalculator />
+    <p className="text-sm text-gray-500 mt-10">
+      Like the website?{" "}
+      <a
+        href="https://ko-fi.com/samwight"
+        className="font-bold text-red-700 hover:text-red-400 transition-all duration-200"
+      >
+        Buy me a coffee on Ko-Fi
+      </a>{" "}
+      or{" "}
+      <a
+        href="https://twitter.com/samwightt"
+        className="font-bold text-blue-700 hover:text-blue-400 transition-all duration-200"
+      >
+        follow me on Twitter.
+      </a>
+    </p>
   </Layout>
 )
 
